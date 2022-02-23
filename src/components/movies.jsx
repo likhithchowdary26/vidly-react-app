@@ -19,6 +19,7 @@ class Movies extends Component {
         return (
             <div className='container'>
                 <br/>
+                <h2>Movies Database</h2>                
                 <h3>Showing {this.state.movies.length} movies</h3>
                 <br/>
                 <table className="table">
